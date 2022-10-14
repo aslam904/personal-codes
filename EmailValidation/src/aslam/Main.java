@@ -22,7 +22,7 @@ public class Main {
             emails.add(sc.nextLine().toLowerCase());
         }
 
-        String regex="[a-z0-9-.]+@[a-z0-9.]+$";
+        String regex="[a-z0-9.]+@[a-z0-9.]+$";
         for(int i=0;i<emails.size();i++) {
             Pattern pattern = Pattern.compile(regex);
             Matcher matcher = pattern.matcher(emails.get(i));
