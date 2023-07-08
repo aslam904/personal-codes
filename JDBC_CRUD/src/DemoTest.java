@@ -37,7 +37,7 @@ public class DemoTest {
 					}
 					
 					break;
-					
+				
 				case "select":
 					ResultSet rs=stmt.executeQuery("select * from employee");
 					while(rs.next()) {
